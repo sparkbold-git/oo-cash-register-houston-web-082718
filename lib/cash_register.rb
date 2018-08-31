@@ -18,5 +18,6 @@ class CashRegister
       if discount.to_f > 0
         total -= total * discount.to_f/100 
         puts "After the discount, the total comes to #{total}."
+      end
   end
 end
